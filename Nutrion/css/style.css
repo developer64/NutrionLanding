@@ -1,0 +1,96 @@
+/* h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-family: 'Segoe Ui', sans-serif;
+    font-weight: 400;
+} */
+
+@font-face {
+    font-family: "League Spartan SemiBild";
+    src: url(../fonts/LeagueSpartan-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "League Spartan Regular";
+    src: url(../fonts/LeagueSpartan-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Segoe UI Bold";
+    src: url(../fonts/Segoe\ UI\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "Segoe";
+    src: url(../fonts/Segoe\ UI.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+header {
+    width: 1920px;
+    margin: 0 auto;
+    background-color: #fff;
+
+}
+
+.container {
+    background-image: url(../images/bg\ vector.png);
+    margin: 5px;
+}
+
+.nav {
+   display: flex;
+   justify-content: space-around
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu a {
+    color: rgb(0, 0, 0);
+    font-family: "Segoe", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.menu :first-child a {
+    color: #98d67d;
+    text-decoration: underline;
+}
